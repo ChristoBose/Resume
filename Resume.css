@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#name{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+#designation{
+    background-color: #fec80e;
+    width:fit-content;
+    margin-left: 20px;
+    padding: 3px;
+    border-radius: 4px;
+}
+#profile{
+    margin-left: 20px;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 20px;
+}
+#profile1{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+#profile3{
+    margin-left: 20px;
+    margin-top: -95px;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+#jobpos{
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#side{
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+
+#p1{
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+#referA{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+#referB{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#refer1{
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+#Iconbottom{
+    margin-top: 15px;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.div1{
+    flex-basis: 25%;
+    background-color: white;
+    flex-direction: column; 
+}
+
+.div2{
+    flex-basis: 65%;
+    background-color: white;
+    
+}
+
+.div2a{
+    margin-bottom: -20px;
+    background-color: rgb(216, 216, 216);
+    height: 450px;
+    margin-top: -0px;
+}
+.div2b{
+    margin-top: 150px;
+    background-color: white;
+}
+
+.demo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    height: 100px;
+    width: fit-content;
+    
+
+}
+
+.hover{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+body{
+    font-family: Poppins;
+}
+progress {
+    width: 100px; /* Reduced width */
+    height: 5px; /* Reduced height */
+    appearance: none;
+    margin-left: 40px;
+  }
+  progress::-webkit-progress-bar {
+    background-color: #615e5e;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+ 
+  progress::-webkit-progress-value {
+    background-color: rgb(255, 196, 0); /* Yellow color */
+    border-radius: 5px;
+  }
+ 
+  progress::-moz-progress-bar {
+    background-color: rgb(255, 196, 0); /* Yellow color */
+    border-radius: 5px;
+  }
